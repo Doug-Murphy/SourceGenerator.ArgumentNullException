@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4017F5C0-EFB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DougMurphy.SourceGenerators.ArgumentNullException", "src\DougMurphy.SourceGenerators.ArgumentNullException\DougMurphy.SourceGenerators.ArgumentNullException.csproj", "{9C70A57F-3F24-4F1E-92CA-1603133AAF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorDemonstrator", "src\SourceGeneratorDemonstrator\SourceGeneratorDemonstrator.csproj", "{7332BD64-2A4B-4839-8868-41107410E255}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{9C70A57F-3F24-4F1E-92CA-1603133AAF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C70A57F-3F24-4F1E-92CA-1603133AAF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C70A57F-3F24-4F1E-92CA-1603133AAF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7332BD64-2A4B-4839-8868-41107410E255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7332BD64-2A4B-4839-8868-41107410E255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7332BD64-2A4B-4839-8868-41107410E255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7332BD64-2A4B-4839-8868-41107410E255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C70A57F-3F24-4F1E-92CA-1603133AAF69} = {4017F5C0-EFB8-4E2D-A951-1FCDD9B511D9}
+		{7332BD64-2A4B-4839-8868-41107410E255} = {4017F5C0-EFB8-4E2D-A951-1FCDD9B511D9}
 	EndGlobalSection
 EndGlobal
