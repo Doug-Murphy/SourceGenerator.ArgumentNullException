@@ -103,7 +103,9 @@ resharper_space_within_single_line_array_initializer_braces = false
 resharper_trailing_comma_in_multiline_lists = true
 resharper_use_indent_from_vs = false
 resharper_wrap_text = false
+resharper_xmldoc_indent_child_elements = ZeroIndent
 resharper_xmldoc_indent_style = tab
+resharper_xmldoc_indent_text = ZeroIndent
 resharper_xmldoc_keep_user_linebreaks = false
 resharper_xmldoc_wrap_tags_and_pi = false
 
