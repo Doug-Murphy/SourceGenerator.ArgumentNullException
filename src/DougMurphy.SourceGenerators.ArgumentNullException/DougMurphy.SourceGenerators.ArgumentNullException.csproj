@@ -2,8 +2,25 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <IsRoslynComponent>true</IsRoslynComponent>
+        <Version>1.0.0</Version>
+        <Authors>Doug Murphy</Authors>
+        <PackageTags>source-generator source generator argumentnullexception</PackageTags>
+        <Description>Automatically generates code for throwing ArgumentNullException on any method parameters that you add the associated attribute for.</Description>
+        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageProjectUrl>https://github.com/Doug-Murphy/SourceGenerator.ArgumentNullException</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Doug-Murphy/SourceGenerator.ArgumentNullException</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <NoPackageAnalysis>true</NoPackageAnalysis>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+        <None Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+    
     <ItemGroup>
       <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2">
         <PrivateAssets>all</PrivateAssets>
