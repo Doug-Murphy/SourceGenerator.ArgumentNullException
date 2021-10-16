@@ -6,12 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-<!--        <PackageReference Include="DougMurphy.SourceGenerators.ArgumentNullException" Version="1.0.0"/>-->
-    </ItemGroup>
-
-    <ItemGroup>
-<!--        <ProjectReference Include="..\DougMurphy.SourceGenerators.ArgumentNullException\DougMurphy.SourceGenerators.ArgumentNullException.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>-->
-<!--        <ProjectReference Include="..\DougMurphy.SourceGenerators.ArgumentNullException\DougMurphy.SourceGenerators.ArgumentNullException.csproj"/>-->
+        <ProjectReference Include="..\DougMurphy.SourceGenerators.ArgumentNullException\DougMurphy.SourceGenerators.ArgumentNullException.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
     </ItemGroup>
 
 </Project>
