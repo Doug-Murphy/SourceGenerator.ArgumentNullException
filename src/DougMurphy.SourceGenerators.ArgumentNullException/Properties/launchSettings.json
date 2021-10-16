@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DougMurphy.SourceGenerators.ArgumentNullException": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\SourceGeneratorDemonstrator\\SourceGeneratorDemonstrator.csproj"
+    }
+  }
+}
